@@ -8,10 +8,10 @@
  **/
 
 // Set file path to your nagios status log
-// $statusFile = '/var/cache/nagios3/status.dat';
+$statusFile = '/usr/local/icinga/var/spool/temp/status.dat';
 
 // Objects file
-// $objectsFile = '/var/cache/icinga/objects.cache';
+$objectsFile = '/usr/local/icinga/var/spool/temp/objects.cache';
 
 // Show IP addresses of hosts
 // $showAddresses = TRUE;
